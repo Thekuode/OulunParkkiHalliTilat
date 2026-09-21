@@ -1,11 +1,11 @@
 # Parkkihallitilat
-ANGULAR 22 TEHTY
+Angular 22-projekti
 
 Sovellus näyttää Oulun parkkihallien vapaat paikat.
 
 Tiedot haetaan [Oulun liikenne](https://api.oulunliikenne.fi/proxy/graphql) -rajapinnasta.
 
-Halusin harjoitella käyttämään karttaa ja laittamaan tietoja leaflettiä käyttämällä
+Halusin harjoitella käyttämään leafletkarttaa ja näyttämistä dataa kartassa
 ## Käynnistys
 
 ```bash
