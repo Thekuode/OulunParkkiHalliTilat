@@ -1,12 +1,12 @@
 import { TestBed } from '@angular/core/testing';
 import { of } from 'rxjs';
 import { CarParkService } from '../../services/car-park.service';
-import { CarParkList } from './car-park-list';
+import { CarParkMap } from './car-park-map';
 
-describe('CarParkList', () => {
+describe('CarParkMap', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [CarParkList],
+      imports: [CarParkMap],
       providers: [
         {
           provide: CarParkService,
@@ -29,7 +29,7 @@ describe('CarParkList', () => {
   });
 
   it('should render a map for Oulu car parks', async () => {
-    const fixture = TestBed.createComponent(CarParkList);
+    const fixture = TestBed.createComponent(CarParkMap);
     await fixture.whenStable();
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('.map')).not.toBeNull();

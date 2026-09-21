@@ -24,11 +24,11 @@ describe('App', () => {
     expect(app).toBeTruthy();
   });
 
-  it('should render the page title and car park list', async () => {
+  it('should render the page title and car park map', async () => {
     const fixture = TestBed.createComponent(App);
     await fixture.whenStable();
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('h1')?.textContent).toContain('Oulu parkkihalli tilat');
-    expect(compiled.querySelector('app-car-park-list')).not.toBeNull();
+    expect(compiled.querySelector('app-car-park-map')).not.toBeNull();
   });
 });

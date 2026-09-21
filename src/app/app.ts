@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { CarParkList } from './components/car-park-list/car-park-list';
+import { CarParkMap } from './components/car-park-map/car-park-map';
 
 @Component({
   selector: 'app-root',
-  imports: [CarParkList],
+  imports: [CarParkMap],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })

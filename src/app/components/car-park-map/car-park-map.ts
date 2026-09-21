@@ -15,11 +15,11 @@ const OULU_CENTER: L.LatLngExpression = [65.01236, 25.46816];
 const OULU_ZOOM = 13;
 
 @Component({
-  selector: 'app-car-park-list',
-  templateUrl: './car-park-list.html',
-  styleUrl: './car-park-list.css',
+  selector: 'app-car-park-map',
+  templateUrl: './car-park-map.html',
+  styleUrl: './car-park-map.css',
 })
-export class CarParkList {
+export class CarParkMap {
   private readonly carParkService = inject(CarParkService);
   private readonly destroyRef = inject(DestroyRef);
   private readonly mapElement = viewChild<ElementRef<HTMLDivElement>>('map');
