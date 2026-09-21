@@ -1,0 +1,9 @@
+<div class="map-shell">
+  <div class="map" #map role="region" aria-label="Oulun kartta parkkihalleista"></div>
+
+  @if (carParks.isLoading()) {
+    <p class="status">Ladataan parkkihalleja...</p>
+  } @else if (carParks.error()) {
+    <p class="status error">Tietoja ei saatu ladattua.</p>
+  }
+</div>
