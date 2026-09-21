@@ -14,3 +14,5 @@ npm start
 ```
 
 Avaa selain osoitteessa <http://localhost:4200/>.
+
+[GitHubPages](https://thekuode.github.io/OulunParkkiHalliTilat/)
